@@ -1,0 +1,203 @@
+*{
+   margin: 0;
+   padding: 0;
+   color: red;
+   box-sizing: border-box
+}
+
+body{ font-family: sans-serif; }
+
+
+/* start header */
+.header{
+   background: url(../images/banner.jpg);
+   background-size: cover;
+   height: 920px;
+   position: relative
+   
+}
+
+.header .overlay{
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.7)
+}
+
+.header h3 { padding:30px; display:inline-block}
+
+.header h3 a{ text-decoration:none; color:#fff; }
+.header h3 span{ color:#3498db;}
+
+.header .nt{
+   height: 80px;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.1);
+   position: fixed; 
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 80px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover { color:#3498db }
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background: none;
+  color:  #3498db;
+  padding: 10px 15px;
+  border: none;
+   margin: 18px 0
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+   display: contents;
+   color: wheat
+}
+span{color:#fff }
+.header .container{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+}
+
+
+.header .container h1{ font-size:60px; color:#fff }
+.header .container p{
+   color: #a29696;
+   font-size: 25px;
+   line-height: 1.6;
+   margin: 20px 0 30px  
+}
+.header .container button{
+   width: 160px;
+   padding: 15px;
+   font-size: 20px;
+   color: #fff;
+   background: #3498db;
+   border: 1px solid #3498db;
+   border-radius: 3px;
+   outline: none;
+   cursor: pointer
+}
+
+/* start quam */
+.quam{ background:#eee }
+
+.container{ width:1170px; margin:auto }
+
+.quam .image{ width:29%  }
+.quam .inner{width:67%; margin:70px 0 100px }
+.quam .inner h3{ color:#2f2929; font-size:30px }
+
+
+.suspend{ background:#3498db }
+.suspend .vel{ width:67%; margin:80px 0 100px }
+.suspend .vel p,
+.suspend .vel h3{ color:#eee }
+.suspend .vel button{ color:#3498db; background:#fff }
+.suspend .massa{ width:30% }
+
+/* start ipsum */
+.ipsum .purus .sagittis div{
+   width: 29%;
+   float: left;
+   margin: 0 25px 0
+}
+
+.ipsum .purus .dolor h2 {
+   margin: 100px 0 0 0;
+   font-size: 25px;
+   color: #2f2929;
+}
+.ipsum .purus .sagittis img{margin: 10px 0}
+.ipsum .purus .sagittis p{margin-bottom: 50px}
+
+/* start footer */
+footer{
+   color: #fff;
+   margin: 100px 0;
+   height: 150px;
+   padding: 30px
+}
+i{
+   color: #fff;
+   border-radius: 100%;
+   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 4px #fff, 0px 0px 0px 5px rgba(0, 0, 0, 0.1);
+   margin: 0 20px 20px 20px;
+   color: #D1D1D1d1;
+   width: 40px;
+   height: 40px;
+   padding: 5px;
+   cursor: pointer
+}
+i:hover{ color:#3498db}
+
+/* frameworke */
+main-color{ color:#3498db }
+.paragraph{
+   margin: 24px 0;
+   color: #a29696;
+   line-height: 1.6;
+   font-size: 15px
+}
+ .images{
+   width: 100%;
+   border-radius: 50%;
+   padding: 9px;
+   border: 2px solid #ddd;
+   margin-top: 80px
+}
+
+.l-left{ float:left }
+
+.r-right{ float:right}
+.l-style{ list-style:none }
+.t-align{ text-align:center }
+.clearfix{ clear:both }
+.btn{
+   width: 125px;
+   padding: 10px;
+   font-size: 15px;
+   color: #fff;
+   background: #3498db;
+   border: 1px solid #3498db;
+   border-radius: 3px;
+   outline: none;
+   cursor: pointer
+   
+}
+
+
+
